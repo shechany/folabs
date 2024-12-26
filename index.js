@@ -6,7 +6,7 @@ console.log(require('./config'))
 console.log(CORS_ORIGIN)
 
 const ID = uuidv4()
-const PORT = 8080
+const PORT = 3333
 
 const app = express()
 app.use(express.json())
